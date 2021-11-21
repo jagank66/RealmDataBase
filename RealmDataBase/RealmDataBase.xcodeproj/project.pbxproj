@@ -18,6 +18,7 @@
 		C1D2EECA274A9D39004EF787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D2EEC8274A9D39004EF787 /* LaunchScreen.storyboard */; };
 		C1D2EED5274A9D3A004EF787 /* RealmDataBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2EED4274A9D3A004EF787 /* RealmDataBaseTests.swift */; };
 		C1D2EEE0274A9D3A004EF787 /* RealmDataBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2EEDF274A9D3A004EF787 /* RealmDataBaseUITests.swift */; };
+		C1D2EF0A274AA11A004EF787 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2EF09274AA11A004EF787 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		C1D2EEDB274A9D3A004EF787 /* RealmDataBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmDataBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D2EEDF274A9D3A004EF787 /* RealmDataBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataBaseUITests.swift; sourceTree = "<group>"; };
 		C1D2EEE1274A9D3A004EF787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D2EF09274AA11A004EF787 /* Employee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 				6C00E0091BC66D33FBD96FC9 /* Pods-RealmDataBaseTests.debug.xcconfig */,
 				656E8420A6B6AF372D8C498F /* Pods-RealmDataBaseTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 				C1D2EEBF274A9D38004EF787 /* SceneDelegate.swift */,
 				C1D2EEC1274A9D38004EF787 /* ViewController.swift */,
 				C1D2EEC3274A9D38004EF787 /* Main.storyboard */,
+				C1D2EF09274AA11A004EF787 /* Employee.swift */,
 				C1D2EEC6274A9D39004EF787 /* Assets.xcassets */,
 				C1D2EEC8274A9D39004EF787 /* LaunchScreen.storyboard */,
 				C1D2EECB274A9D39004EF787 /* Info.plist */,
@@ -372,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D2EEC2274A9D38004EF787 /* ViewController.swift in Sources */,
+				C1D2EF0A274AA11A004EF787 /* Employee.swift in Sources */,
 				C1D2EEBE274A9D38004EF787 /* AppDelegate.swift in Sources */,
 				C1D2EEC0274A9D38004EF787 /* SceneDelegate.swift in Sources */,
 			);

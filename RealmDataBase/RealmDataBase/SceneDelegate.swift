@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  RealmDataBase
+//  RealmdataBase
 //
 //  Created by Jagan on 21/11/21.
 //
